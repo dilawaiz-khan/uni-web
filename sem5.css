@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%; /* Adjust padding */
+    background-color:rgba(49, 103, 208, 1);
+    height: auto; /* Adjust automatically based on content */
+    position: fixed; /* Fixed position */
+    top: 0; /* Align to the top */
+    width: 100%; /* Full width navbar */
+    z-index: 10; /* Ensure it stays on top of other elements */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.imgl {
+    height: 80px; /* Logo size */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.logo {
+    color: black;
+    font-size: 30px; /* Adjust font size */
+    line-height: 1.2;
+}
+
+.an {
+    display: flex;
+    gap: 20px; /* Space between links */
+}
+
+.an a {
+    text-decoration: none;
+    color: white; /* White text for links */
+    font-size: 18px; /* Adjust font size */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.an a:hover {
+    color: black/* Hover effect */
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 30px;
+}
+.container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: first baseline;
+   
+}
+.box {
+    width: 300px;
+    height: 300px; 
+    background-color: #e0e0e0; 
+    border-radius: 10px; 
+    display: flex; 
+    flex-direction:column;
+    justify-content: center; 
+    align-items: center; 
+    margin-left:30px
+  }
+  .scd{
+    text-align: center;
+  }
+  .tb{
+    text-align: center;
+  }
+  a{
+    text-decoration: none;
+    color:black
+  }
+  footer {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 10px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1) {
+    font-size: larger;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;}
+
+
