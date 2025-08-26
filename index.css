@@ -334,3 +334,184 @@ q{
       margin-bottom: 20px;
       font-weight: bold;}
   
+
+
+
+      /* ================= MOBILE RESPONSIVENESS ================= */
+
+/* For tablets (≤ 1024px) */
+@media (max-width: 1024px) {
+  nav {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .an {
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .slider {
+    width: 95%;
+    height: 350px;
+    margin: 20px auto;
+  }
+
+  .boxes {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .box {
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+  }
+
+  .hod {
+    width: 300px;
+    height: 300px;
+  }
+
+  .mess {
+    font-size: 20px;
+  }
+}
+
+/* For mobile phones (≤ 768px) */
+@media (max-width: 768px) {
+  .logo {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .an {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .slider {
+    height: 250px;
+  }
+
+  .container {
+    font-size: 24px;
+  }
+
+  .sem {
+    font-size: 40px;
+  }
+
+  .boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 220px;
+    height: 220px;
+  }
+
+  .semester {
+    font-size: 25px;
+  }
+
+  .circle {
+    width: 70px;
+    height: 70px;
+    font-size: 28px;
+  }
+
+  .year {
+    font-size: 18px;
+  }
+
+  .aboutus {
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .para {
+    font-size: 18px;
+    margin: 20px;
+  }
+
+  .contain {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hod {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .mess {
+    font-size: 18px;
+    margin: 15px;
+    text-align: center;
+  }
+
+  footer {
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+/* For very small devices (≤ 480px) */
+@media (max-width: 480px) {
+  .logo {
+    font-size: 22px;
+  }
+
+  .an a {
+    font-size: 16px;
+  }
+
+  .slider {
+    height: 180px;
+  }
+
+  .sem {
+    font-size: 28px;
+  }
+
+  .box {
+    width: 180px;
+    height: 180px;
+  }
+
+  .semester {
+    font-size: 20px;
+  }
+
+  .circle {
+    width: 60px;
+    height: 60px;
+    font-size: 22px;
+  }
+
+  .year {
+    font-size: 16px;
+  }
+
+  .para {
+    font-size: 16px;
+    margin: 15px;
+  }
+
+  .mess {
+    font-size: 16px;
+  }
+}
